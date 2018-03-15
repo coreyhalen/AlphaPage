@@ -1,16 +1,16 @@
 body {
-	background-color: #240e28;
+	background-color: black;
 }
 
 h1 {
-	color: #d8247c;
+	color: yellow;
 }
 
 h2 {
-	color: #25a9f0;
+	color: cyan;
 }
 
 p {
-	color: #fff;
+	color: white;
 }
 
