@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+
+#main-header {
+	margin: auto;
+	width: 50%;
+	font-size: 20px;
+	font-style: italic;
+}
+
+body {
+	font-family: "Cuprum", sans-serif;
+}
+
+h1 {
+	color: #d8247c;
+}
+
+h2 {
+	color: #25a9f0;
+}
+
+p {
+	color: #fff;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-auto-rows: 9fr 1fr;
+	grid-column-gap: 1em;
+	grid-row-gap: 1em;
+}
+
+.container > div{
+	background: #eee;
+	padding: 5px;
+}
+
+.container > div:nth-child(odd){
+	background: #ddd;
+}
+
+#actionbar {
+	display: grid;
+	grid-gap: 1em;
+	
+}
